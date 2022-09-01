@@ -70,7 +70,7 @@
     <!-- dependency version properties -->
     <kite.version>1.1.1-SNAPSHOT</kite.version>
     <kite.avro.version>1.7.6-cdh5.4.2</kite.avro.version>
-    <kite.crunch.version>0.11.0-cdh5.4.2</kite.crunch.version>
+    <kite.crunch.version>0.15.0</kite.crunch.version>
     <kite.findbugs.version>2.0.1</kite.findbugs.version>
     <kite.hive.version>1.1.0-cdh5.4.2</kite.hive.version>
     <kite.oozie.version>4.1.0-cdh5.4.2</kite.oozie.version>
