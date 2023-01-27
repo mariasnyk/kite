@@ -31,7 +31,7 @@
   </description>
 
   <properties>
-    <vers.oozie4>4.1.0</vers.oozie4>
+    <vers.oozie4>5.1.0</vers.oozie4>
   </properties>
 
   <build>
@@ -74,8 +74,8 @@
             </goals>
             <configuration>
               <tasks>
-                <echo message="Create empty javadoc JAR to satisfy Maven central" />
-                <mkdir dir="target/apidocs" />
+                <echo message="Create empty javadoc JAR to satisfy Maven central"/>
+                <mkdir dir="target/apidocs"/>
               </tasks>
             </configuration>
           </execution>
@@ -186,7 +186,7 @@
         </property>
       </activation>
       <properties>
-        <vers.oozie4>${vers.oozie}</vers.oozie4>
+        <vers.oozie4>5.1.0</vers.oozie4>
       </properties>
     </profile>
   </profiles>
