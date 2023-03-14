@@ -113,7 +113,7 @@
     <!-- Java versions -->
     <javaVersion>1.7</javaVersion>
     <targetJavaVersion>1.7</targetJavaVersion>
-    <Xdoclint /> <!-- set by the java8 profile to turn off doclint -->
+    <Xdoclint/> <!-- set by the java8 profile to turn off doclint -->
 
     <!-- used by jdiff, semver rule -->
     <previous.project.version>1.1.0</previous.project.version>
@@ -146,7 +146,7 @@
     <vers.hadoop-mr1-cdh4>2.0.0-mr1-cdh${cdh4.version}</vers.hadoop-mr1-cdh4>
     <vers.hadoop-cdh5>2.6.0-cdh${cdh5.version}</vers.hadoop-cdh5>
     <vers.hbase1>0.94.6</vers.hbase1>
-    <vers.hbase2>0.98.3-hadoop2</vers.hbase2>
+    <vers.hbase2>0.98.10.1-hadoop2</vers.hbase2>
     <vers.hbase-cdh4>0.94.6-cdh${cdh4.version}</vers.hbase-cdh4>
     <vers.hbase-cdh5>1.0.0-cdh${cdh5.version}</vers.hbase-cdh5>
     <!-- When changing Hive versions, be careful that the required jars are
@@ -1247,7 +1247,7 @@
         <vers.flume>1.4.0-cdh${cdh4.version}</vers.flume>
         <vers.hive>0.10.0-cdh${cdh4.version}</vers.hive>
         <vers.oozie>3.3.2-cdh${cdh4.version}</vers.oozie>
-        <test.aws.access.key /> <!-- don't test S3 -->
+        <test.aws.access.key/> <!-- don't test S3 -->
       </properties>
     </profile>
 
