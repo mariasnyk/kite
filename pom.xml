@@ -113,7 +113,7 @@
     <!-- Java versions -->
     <javaVersion>1.7</javaVersion>
     <targetJavaVersion>1.7</targetJavaVersion>
-    <Xdoclint /> <!-- set by the java8 profile to turn off doclint -->
+    <Xdoclint/> <!-- set by the java8 profile to turn off doclint -->
 
     <!-- used by jdiff, semver rule -->
     <previous.project.version>1.1.0</previous.project.version>
@@ -169,7 +169,7 @@
     <vers.plexus-utils>3.0</vers.plexus-utils>
     <vers.rat>0.9</vers.rat>
     <vers.slf4j>1.6.1</vers.slf4j>
-    <vers.dropwizard.metrics>3.2.2</vers.dropwizard.metrics>
+    <vers.dropwizard.metrics>4.2.18</vers.dropwizard.metrics>
     <vers.typesafe.config>1.0.2</vers.typesafe.config>
     <vers.solr>6.6.0</vers.solr>
     <solr.expected.version>6.6.0</solr.expected.version> <!-- sanity check to verify we actually run against the expected version rather than some outdated version -->
@@ -1247,7 +1247,7 @@
         <vers.flume>1.4.0-cdh${cdh4.version}</vers.flume>
         <vers.hive>0.10.0-cdh${cdh4.version}</vers.hive>
         <vers.oozie>3.3.2-cdh${cdh4.version}</vers.oozie>
-        <test.aws.access.key /> <!-- don't test S3 -->
+        <test.aws.access.key/> <!-- don't test S3 -->
       </properties>
     </profile>
 
