@@ -113,7 +113,7 @@
     <!-- Java versions -->
     <javaVersion>1.7</javaVersion>
     <targetJavaVersion>1.7</targetJavaVersion>
-    <Xdoclint /> <!-- set by the java8 profile to turn off doclint -->
+    <Xdoclint/> <!-- set by the java8 profile to turn off doclint -->
 
     <!-- used by jdiff, semver rule -->
     <previous.project.version>1.1.0</previous.project.version>
@@ -174,7 +174,7 @@
     <vers.solr>6.6.0</vers.solr>
     <solr.expected.version>6.6.0</solr.expected.version> <!-- sanity check to verify we actually run against the expected version rather than some outdated version -->
     <vers.solr-cdh5>6.6.0</vers.solr-cdh5>
-    <vers.tika>1.13</vers.tika>
+    <vers.tika>1.16</vers.tika>
     <vers.jackson>2.3.1</vers.jackson>
     <vers.opencsv>2.3</vers.opencsv>
     <vers.jodatime>2.3</vers.jodatime>
@@ -1247,7 +1247,7 @@
         <vers.flume>1.4.0-cdh${cdh4.version}</vers.flume>
         <vers.hive>0.10.0-cdh${cdh4.version}</vers.hive>
         <vers.oozie>3.3.2-cdh${cdh4.version}</vers.oozie>
-        <test.aws.access.key /> <!-- don't test S3 -->
+        <test.aws.access.key/> <!-- don't test S3 -->
       </properties>
     </profile>
 
