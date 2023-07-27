@@ -113,7 +113,7 @@
     <!-- Java versions -->
     <javaVersion>1.7</javaVersion>
     <targetJavaVersion>1.7</targetJavaVersion>
-    <Xdoclint /> <!-- set by the java8 profile to turn off doclint -->
+    <Xdoclint/> <!-- set by the java8 profile to turn off doclint -->
 
     <!-- used by jdiff, semver rule -->
     <previous.project.version>1.1.0</previous.project.version>
@@ -179,7 +179,7 @@
     <vers.opencsv>2.3</vers.opencsv>
     <vers.jodatime>2.3</vers.jodatime>
     <vers.jcommander>1.35</vers.jcommander>
-    <vers.spark>1.0.0</vers.spark>
+    <vers.spark>2.1.1</vers.spark>
     <vers.hadoop-aws>2.6.0</vers.hadoop-aws>
 
     <!-- Plugin versions -->
@@ -1247,7 +1247,7 @@
         <vers.flume>1.4.0-cdh${cdh4.version}</vers.flume>
         <vers.hive>0.10.0-cdh${cdh4.version}</vers.hive>
         <vers.oozie>3.3.2-cdh${cdh4.version}</vers.oozie>
-        <test.aws.access.key /> <!-- don't test S3 -->
+        <test.aws.access.key/> <!-- don't test S3 -->
       </properties>
     </profile>
 
@@ -1274,7 +1274,7 @@
         <vers.solr>${vers.solr-cdh5}</vers.solr>
         <solr.expected.version>${vers.solr-cdh5}</solr.expected.version> <!-- sanity check to verify we actually run against the expected version rather than some outdated version -->
         <vers.hadoop-aws>2.6.0-cdh${cdh5.version}</vers.hadoop-aws>
-        <vers.spark>1.3.0-cdh${cdh5.version}</vers.spark>
+        <vers.spark>2.1.1</vers.spark>
       </properties>
     </profile>
 
