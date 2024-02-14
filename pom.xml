@@ -113,7 +113,7 @@
     <!-- Java versions -->
     <javaVersion>1.7</javaVersion>
     <targetJavaVersion>1.7</targetJavaVersion>
-    <Xdoclint /> <!-- set by the java8 profile to turn off doclint -->
+    <Xdoclint/> <!-- set by the java8 profile to turn off doclint -->
 
     <!-- used by jdiff, semver rule -->
     <previous.project.version>1.1.0</previous.project.version>
@@ -129,7 +129,7 @@
     <artifact.hbase-test-deps>kite-hbase-test-dependencies</artifact.hbase-test-deps>
 
     <!-- Library versions -->
-    <vers.avro>1.7.5</vers.avro>
+    <vers.avro>1.9.0</vers.avro>
     <vers.commons-codec>1.4</vers.commons-codec>
     <vers.commons-io>2.5</vers.commons-io>
     <vers.commons-logging>1.1.1</vers.commons-logging>
@@ -153,7 +153,7 @@
          pulled in by the TransformTask in kite-tools. New dependencies
          should be added to the distributed cache by class.
          -->
-    <vers.hive>1.1.0</vers.hive>
+    <vers.hive>3.0.0</vers.hive>
     <vers.hive-cdh5>1.1.0-cdh${cdh5.version}</vers.hive-cdh5>
     <vers.jetty>8.1.14.v20131031</vers.jetty>
     <vers.jetty.morphlines>9.3.8.v20160314</vers.jetty.morphlines>
@@ -1245,9 +1245,9 @@
         <artifact.hbase-test-deps>kite-hbase-cdh4-test-dependencies</artifact.hbase-test-deps>
         <cdh.version>${cdh4.version}</cdh.version>
         <vers.flume>1.4.0-cdh${cdh4.version}</vers.flume>
-        <vers.hive>0.10.0-cdh${cdh4.version}</vers.hive>
+        <vers.hive>3.0.0</vers.hive>
         <vers.oozie>3.3.2-cdh${cdh4.version}</vers.oozie>
-        <test.aws.access.key /> <!-- don't test S3 -->
+        <test.aws.access.key/> <!-- don't test S3 -->
       </properties>
     </profile>
 
@@ -1269,7 +1269,7 @@
         <cdh.version>${cdh5.version}</cdh.version>
         <vers.crunch>${vers.crunch-cdh5}</vers.crunch>
         <vers.flume>1.5.0-cdh${cdh5.version}</vers.flume>
-        <vers.hive>${vers.hive-cdh5}</vers.hive>
+        <vers.hive>3.0.0</vers.hive>
         <vers.oozie>4.1.0-cdh${cdh5.version}</vers.oozie>
         <vers.solr>${vers.solr-cdh5}</vers.solr>
         <solr.expected.version>${vers.solr-cdh5}</solr.expected.version> <!-- sanity check to verify we actually run against the expected version rather than some outdated version -->
