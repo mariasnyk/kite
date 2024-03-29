@@ -113,7 +113,7 @@
     <!-- Java versions -->
     <javaVersion>1.7</javaVersion>
     <targetJavaVersion>1.7</targetJavaVersion>
-    <Xdoclint /> <!-- set by the java8 profile to turn off doclint -->
+    <Xdoclint/> <!-- set by the java8 profile to turn off doclint -->
 
     <!-- used by jdiff, semver rule -->
     <previous.project.version>1.1.0</previous.project.version>
@@ -154,7 +154,7 @@
          should be added to the distributed cache by class.
          -->
     <vers.hive>1.1.0</vers.hive>
-    <vers.hive-cdh5>1.1.0-cdh${cdh5.version}</vers.hive-cdh5>
+    <vers.hive-cdh5>4.0.0</vers.hive-cdh5>
     <vers.jetty>8.1.14.v20131031</vers.jetty>
     <vers.jetty.morphlines>9.3.8.v20160314</vers.jetty.morphlines>
     <vers.jexl>2.1.1</vers.jexl>
@@ -1247,7 +1247,7 @@
         <vers.flume>1.4.0-cdh${cdh4.version}</vers.flume>
         <vers.hive>0.10.0-cdh${cdh4.version}</vers.hive>
         <vers.oozie>3.3.2-cdh${cdh4.version}</vers.oozie>
-        <test.aws.access.key /> <!-- don't test S3 -->
+        <test.aws.access.key/> <!-- don't test S3 -->
       </properties>
     </profile>
 
